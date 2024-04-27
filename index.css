@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  top: 0;
+  color: #000;
+  font-family: sans-serif;
+}
+.body {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: rgb(174, 174, 174);
+}
+nav {
+  margin-top: 0;
+  padding-top: 200px;
+  overflow: hidden;
+  top: 0;
+  position: sticky;
+  border-radius: 0 0 70px 70px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 1% 0;
+  background-color: white;
+}
+.a1 {
+  font-size: larger;
+  text-decoration-line: none;
+  color: rgb(49, 48, 48);
+  padding: 10px;
+  font-style: bold;
+}
+.home {
+  display: grid;
+}
+.sidebar {
+  border-radius: 0 20px 20px 0;
+  text-decoration-line: none;
+  display: grid;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 0.2rem 0.8rem;
+}
+.sidea {
+  padding: 10px 0.005rem;
+  width: 40px;
+}
+.sideimg {
+  border-radius: 5px;
+  width: 100%;
+}
+.heading-primary {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #111;
+  font-weight: 700;
+}
+.primary-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90rem;
+  width: 92%;
+}
+.text-primary-div {
+  margin: 3rem auto 0 auto;
+  max-width: 80rem;
+}
+.text-primary {
+  color: #373737;
+  font-size: 1.4rem;
+  text-align: center;
+  width: 100%;
+  line-height: 1.6;
+}
+.home-button {
+  margin-top: 5rem;
+  text-align: center;
+}
+.btn {
+  font-size: larger;
+  text-decoration-line: none;
+  padding: 28px 50px;
+  background: #7843e9;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
